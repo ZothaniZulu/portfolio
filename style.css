@@ -8,7 +8,7 @@ body, html{
     color: #666
 }
 
-.image1, .image2, .image3, image3{
+.image1, .image3{
     position: relative;
     opacity: 0.70;
     background-position: center;
@@ -24,8 +24,13 @@ body, html{
 }
 
 .image2{
-    background-image:url('images/image2.png');
-    min-height: 400px;
+    background-image:url('images/github_projects.JPG');
+    position: relative;
+    opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70%;
 }
 
 .image3{
@@ -38,6 +43,7 @@ body, html{
     background-color: #282e34;
     color: #ddd;
     padding: 50px 80px;
+    font-family: 'Share Tech Mono', monospace;
 }
 
 .section2{
