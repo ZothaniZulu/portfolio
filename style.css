@@ -56,7 +56,11 @@ body, html{
     background-color: #000;
     color: #ddd;
     padding: 50px 80px;
-    font-family: 'Share Tech Mono', monospace;
+    font-family: 'Share Tech Mono', monospace !important;
+}
+
+.contact-details {
+    font-size: 20px;
 }
 
 .paragraph-text{
@@ -93,6 +97,8 @@ body, html{
     font-family: 'Share Tech Mono', monospace;
     padding: 30px;
 }
+
+
 @media(max-width: 568px){
     .paragraph-text .border{
         background-color: #000;
@@ -126,6 +132,14 @@ body, html{
         color: #ddd;
         font-size: 14px;
         padding: 50px 80px;
+    }
+
+    .contact-details-heading{
+        font-size: 18px;
+    }
+
+    .contact-details {
+        font-size: 15px;
     }
 }
 
