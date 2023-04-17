@@ -98,7 +98,10 @@ body, html{
     padding: 30px;
 }
 
-
+.card{
+    margin: 10px;
+    height: 100% !important;
+}
 @media(max-width: 568px){
     .paragraph-text .border{
         background-color: #000;
